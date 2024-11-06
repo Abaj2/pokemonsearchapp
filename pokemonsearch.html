@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="pokemonsearch.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Pokemon Search App</h1>
+            <div class="search-app-phone" id="search-app-phone">
+                <div class="phone-camera" id="phone-camera"></div>
+                <div class="search-app-container" id="search-app-container">
+                    <p class="search-text" id="search-text">Search for Pokemon Name or ID</p>
+                    <input id="search-input" class="search-input" placeholder="Enter pokemon here" required>
+                    <button id="search-button" class="search-button">Search Pokemon</button>
+                    <p id="pokemon-name-text" class="pokemon-name-text">Name: <span id="pokemon-name"></span></p>
+                    <p id="pokemon-id-text" class="pokemon-id-text">Id: <span id="pokemon-id"></span></p>
+                    <p id="weight-text" class="weight-text">Weight: <span id="weight"></span></p>
+                    <p id="height-text" class="height-text">Height: <span id="height"></span></p>
+                    <p id="types-text" class="types-text">Type: <span id="types"></span></p>
+                    <img id="sprite" src="" alt="Pokemon image">
+                    <div class="base-box" id="base-box"><strong>Base</strong></div>
+                    <div class="base-box" id="hp-box">HP:</div>
+                    <div class="base-box" id="attack-box">Attack:</div>
+                    <div class="base-box" id="defense-box">Defense:</div>
+                    <div class="base-box" id="sp-attack-box">Sp. Attack:</div>
+                    <div class="base-box" id="sp-defense-box">Sp. Defense:</div>
+                    <div class="base-box" id="speed-box">Speed:</div>
+                    <div class="stat-box" id="stat"><strong>Stats</strong></div>
+                    <div class="stat-box" id="hp"></div>
+                    <div class="stat-box" id="attack"></div>
+                    <div class="stat-box" id="defense"></div>
+                    <div class="stat-box" id="special-attack"></div>
+                    <div class="stat-box" id="special-defense"></div>
+                    <div class="stat-box" id="speed"></div>
+                </div>
+            </div>
+        </main>
+        <script src="pokemonsearch.js"></script>
+    </body>
+</html>
